@@ -30,7 +30,7 @@ use proptest_derive::Arbitrary;
 /// Error constructing or converting DLT types
 #[derive(Error, Debug)]
 pub enum Error {
-    #[error("Unexpected value found: {0}")]
+    #[error("Unexpected value founda: {0}")]
     UnexpectedValue(String),
     #[error("Data not valid: {0}")]
     InvalidData(String),
